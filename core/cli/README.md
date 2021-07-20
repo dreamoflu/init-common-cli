@@ -1,11 +1,11 @@
-# `@init-common-index/index`
+# `@init-common-cli/cli`
 
 > TODO: description
 
 ## Usage
 
 ```
-const index = require('@init-common-index/index');
 
-// TODO: DEMONSTRATE API
+
+
 ```
