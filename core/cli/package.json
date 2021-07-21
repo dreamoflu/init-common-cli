@@ -23,10 +23,10 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@init-common-cli/get-npm-info": "file:../../utils/get-npm-info",
-    "@init-common-cli/init": "file:../../commands/init",
-    "@init-common-cli/log": "file:../../utils/log",
-    "@init-common-cli/utils": "file:../../utils/utils",
+    "@init-common-cli/get-npm-info": "^1.0.2",
+    "@init-common-cli/init": "^1.0.2",
+    "@init-common-cli/log": "^1.0.2",
+    "@init-common-cli/utils": "^1.0.2",
     "colors": "^1.4.0",
     "commander": "^8.0.0",
     "dotenv": "^10.0.0",
@@ -37,5 +37,6 @@
     "root-check": "^1.0.0",
     "semver": "^7.3.5",
     "user-home": "^3.0.0"
-  }
+  },
+  "gitHead": "ee2efc5532dcafde0a77df11dc1bcdae64610aac"
 }
