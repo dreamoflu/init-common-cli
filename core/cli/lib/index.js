@@ -156,7 +156,7 @@ function registerCommand() {
       process.env.LOG_LEVEL = 'info'
     }
     log.level = process.env.LOG_LEVEL
-    log.verbose('test debug')
+    log.verbose('test debug11')
   })
   program.on('command:*', function (obj) {
     const availableCommands = program.commands.map(cmd => cmd.name())
