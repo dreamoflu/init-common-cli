@@ -1,4 +1,4 @@
-# `@init-common-cli/cli`
+# `@index-common-cli/cli`
 
 > TODO: description
 
