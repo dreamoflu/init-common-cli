@@ -1,6 +1,6 @@
 {
   "name": "@init-common-cli/cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "> TODO: description",
   "author": "李亚军 <dreamoflu@163.com>",
   "homepage": "",
@@ -23,10 +23,10 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@init-common-cli/get-npm-info": "^1.0.3",
-    "@init-common-cli/init": "^1.0.3",
-    "@init-common-cli/log": "^1.0.3",
-    "@init-common-cli/utils": "^1.0.3",
+    "@init-common-cli/get-npm-info": "^1.0.4",
+    "@init-common-cli/init": "^1.0.4",
+    "@init-common-cli/log": "^1.0.4",
+    "@init-common-cli/utils": "^1.0.4",
     "colors": "^1.4.0",
     "commander": "^8.0.0",
     "dotenv": "^10.0.0",
