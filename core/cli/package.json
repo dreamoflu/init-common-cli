@@ -1,6 +1,6 @@
 {
   "name": "@init-common-cli/cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "> TODO: description",
   "author": "李亚军 <dreamoflu@163.com>",
   "homepage": "",
@@ -24,9 +24,9 @@
   },
   "dependencies": {
     "@init-common-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "@init-common-cli/init": "file:../../commands/init",
     "@init-common-cli/log": "file:../../utils/log",
     "@init-common-cli/utils": "file:../../utils/utils",
-    "@init-common-cli/init": "file:../../commands/init",
     "colors": "^1.4.0",
     "commander": "^8.0.0",
     "dotenv": "^10.0.0",
