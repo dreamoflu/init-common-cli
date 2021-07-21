@@ -1,22 +1,6 @@
-0 silly argv {
-0 silly argv   _: [ 'create' ],
-0 silly argv   lernaVersion: '3.22.1',
-0 silly argv   '$0': '/usr/local/bin/lerna',
-0 silly argv   name: 'get-npm-info',
-0 silly argv   loc: 'utils'
-0 silly argv }
-1 notice cli v3.22.1
-2 verbose rootPath /Users/liyajun/Documents/慕课网学习/架构师/脚手架/脚手架实战/index-common-cli
-3 error Error: canceled
-3 error     at Interface.<anonymous> (/usr/local/lib/node_modules/lerna/node_modules/read/lib/read.js:66:13)
-3 error     at Interface.emit (events.js:315:20)
-3 error     at Interface._ttyWrite (readline.js:875:16)
-3 error     at ReadStream.onkeypress (readline.js:213:10)
-3 error     at ReadStream.emit (events.js:315:20)
-3 error     at emitKeys (internal/readline/utils.js:345:14)
-3 error     at emitKeys.next (<anonymous>)
-3 error     at ReadStream.onData (readline.js:1144:36)
-3 error     at ReadStream.emit (events.js:315:20)
-3 error     at addChunk (internal/streams/readable.js:309:12)
-3 error     at readableAddChunk (internal/streams/readable.js:284:9)
-3 error     at ReadStream.Readable.push (internal/streams/readable.js:223:10)
+60 error Error: Command failed: git tag v1.0.4 -m v1.0.4
+60 error fatal: tag 'v1.0.4' already exists
+60 error
+60 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:174:9)
+60 error     at /usr/local/lib/node_modules/lerna/node_modules/execa/index.js:278:16
+60 error     at processTicksAndRejections (internal/process/task_queues.js:93:5)
